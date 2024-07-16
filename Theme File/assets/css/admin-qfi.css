@@ -1,0 +1,21 @@
+/* Quick Featured Image */
+
+.qfi-featured-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.qfi-featured-image-box.fade-in {
+  opacity: 1;
+}
+
+.qfi-featured-image-box.fade-out {
+  opacity: 0;
+}
+
+.qfi-featured-image-controls {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
