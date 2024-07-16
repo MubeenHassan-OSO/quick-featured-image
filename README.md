@@ -2,7 +2,7 @@
 This PHP code adds a custom column to the WordPress admin posts and pages list, allowing users to manage the featured images directly from the list view. It includes functionality for adding, changing, and removing featured images using AJAX.
 
 Key Components
-- Function: <code>qfi_show_thumb_manage_pic_column()</<code>>:
+- Function: <code>qfi_show_thumb_manage_pic_column()</code>:
   - Renders the content for the custom column (img) in the posts and pages list.
   - Displays the current featured image or a message if no image is set.
   - Provides links to change or remove the featured image.
