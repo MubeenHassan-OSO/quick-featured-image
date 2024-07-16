@@ -20,7 +20,7 @@ Key Components
   - Handles the AJAX request to set the featured image for a post.
   - Checks for valid nonce and retrieves the post ID and attachment URL from the request.
   - Sets the post thumbnail and returns a success or error message.
--AJAX Call: <code>qfi_remove_featured_image_callback()</code>
+- AJAX Call: <code>qfi_remove_featured_image_callback()</code>
   - Handles the AJAX request to remove the featured image from a post.
   - Checks for valid nonce and retrieves the post ID from the request.
   - Deletes the post thumbnail and returns a success or error message.
